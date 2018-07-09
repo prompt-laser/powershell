@@ -1,6 +1,15 @@
 <#
 	.SYNOPSIS
 	Tool for sending pop-up dialog boxes to computers.
+	
+	.PARAMETER Message
+	Message to appear in the pop-up.
+	
+	.PARAMETER ComputerName
+	Computer(s) to send the pop-up to. This can be a single computer or a comma delimited list.
+	
+	.PARAMETER Domain
+	Switch parameter to send pop-up to the entire domain.
 #>
 
 param(
