@@ -1,6 +1,6 @@
 <#
 	.SYNOPSIS
-	Automatically remove stale computer accounts from Active Directory.`
+	Automatically removes computers accounts from Active Directory that haven't logged in this year.`
 	Requires AD module.
 #>
 
