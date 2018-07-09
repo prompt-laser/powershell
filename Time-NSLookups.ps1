@@ -4,7 +4,8 @@
 
 <#
 	.SYNOPSIS
-	Tool for testing response time of DNS queries against multiple name servers
+	Tool for testing response time of DNS queries against multiple name servers. `
+	Requires dnsclient module.
 	
 	.PARAMETER Server
 	Specify one or more name servers to query
